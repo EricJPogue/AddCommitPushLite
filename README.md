@@ -1,6 +1,6 @@
 ### Git Automation Script
 ## A huge THANK YOU to Patrick O'Connor
-## Warning: You may not copy/paste any of this code into your assignment - Eric Pogue
+## Warning: You may NOT copy/paste any of this code into your assignment - Eric Pogue
 
 This project includes a Python script (`add-commit-push.py`) that automates Git operations.
 
