@@ -1,4 +1,6 @@
 ### Git Automation Script
+## A huge THANK YOU to Patrick O'Connor
+## Warning: You may not copy/paste any of this code into your assignment - Eric Pogue
 
 This project includes a Python script (`add-commit-push.py`) that automates Git operations.
 
@@ -37,5 +39,21 @@ git pull
 ```
 
 By: Patrick O'Connor
+Updated by Eric Pogue
 
 Credits: ChatGPT for code and Eric Pogue for the idea and requirements
+
+
+MacOS:
+View hidden files in Finder (splat-shift-period)
+Edit ".zshrc" (create it if needed)
+Include updated parts of the example code below:
+```bash
+alias g5="/Users/ericpogue/Lewis/cpsc-20000/sprint-5"
+alias acp="python3 /Users/ericpogue/Scripts/acp.py"
+
+alias ll="ls -lhaG"
+alias finder="open /System/Library/CoreServices/finder.app ."
+
+unsetopt BEEP
+```
